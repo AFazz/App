@@ -1,11 +1,11 @@
-import java.util.Scanner; // I use scanner because it's command line.
+import java.util.Scanner;
 
 public class Login {
 public void run() {
     Scanner scan = new Scanner (new File("the\\dir\\myFile.extension"));
     Scanner keyboard = new Scanner (System.in);
     String user = scan.nextLine();
-    String pass = scan.nextLine(); // looks at selected file in scan
+    String pass = scan.nextLine(); 
 
     String inpUser = keyboard.nextLine();
     String inpPass = keyboard.nextLine(); // gets input from user
