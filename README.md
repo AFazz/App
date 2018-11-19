@@ -8,7 +8,7 @@ public void run() {
     String pass = scan.nextLine(); 
 
     String inpUser = keyboard.nextLine();
-    String inpPass = keyboard.nextLine(); // gets input from user
+    String inpPass = keyboard.nextLine(); 
 
     if (inpUser.equals(user) && inpPass.equals(pass)) {
         System.out.print("your login message");
